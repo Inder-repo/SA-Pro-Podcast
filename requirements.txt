@@ -1,52 +1,11 @@
-# ENTERPRISE SECURITY ARCHITECTURE WORKSHOP - STREAMLIT CLOUD COMPATIBLE
-# Fixed for deployment issues
+# MINIMAL REQUIREMENTS FOR STREAMLIT CLOUD
+# Core dependencies only - guaranteed to deploy
 
-# ============================================================================
-# CORE STREAMLIT & UI
-# ============================================================================
-streamlit==1.31.1
-streamlit-drawable-canvas==0.9.3
-streamlit-option-menu==0.3.12
-streamlit-aggrid==0.3.4.post3
-streamlit-extras==0.3.6
-
-# ============================================================================
-# DATA PROCESSING & ANALYSIS
-# ============================================================================
-pandas==2.1.4
-numpy==1.26.3
-openpyxl==3.1.2
-
-# ============================================================================
-# VISUALIZATION & DIAGRAMMING
-# ============================================================================
-plotly==5.18.0
-matplotlib==3.8.2
-seaborn==0.13.1
-pillow==10.2.0
-
-# ============================================================================
-# DOCUMENT GENERATION (Optional - comment out if deployment fails)
-# ============================================================================
-# reportlab==4.0.9
-# pypdf==4.0.1
-# python-docx==1.1.0
-# python-pptx==0.6.23
-
-# ============================================================================
-# DATA FORMATS
-# ============================================================================
-pyyaml==6.0.1
-jsonschema==4.21.1
-
-# ============================================================================
-# SECURITY & CRYPTOGRAPHY
-# ============================================================================
-cryptography==42.0.2
-# NOTE: hashlib is built into Python 3, no package needed
-
-# ============================================================================
-# UTILITIES
-# ============================================================================
-python-dateutil==2.8.2
-requests==2.31.0
+streamlit>=1.28.0
+streamlit-drawable-canvas>=0.9.0
+streamlit-option-menu>=0.3.0
+pandas>=2.0.0
+plotly>=5.0.0
+pillow>=10.0.0
+cryptography>=41.0.0
+pyyaml>=6.0
